@@ -1,0 +1,63 @@
+{
+  "dirs": [
+    {
+      "Url": "/path?path=/boot/EFI",
+      "DirName": "EFI",
+      "Permission": "drwxr-xr-x",
+      "Size": "1024",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-12 18:59:12 +0800 CST",
+      "Access": true
+    }
+  ],
+  "files": [
+    {
+      "FileName": "initramfs-linux-fallback.img",
+      "Permission": "-rwxr-xr-x",
+      "Size": "28609645",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-03 14:15:10 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "initramfs-linux.img",
+      "Permission": "-rwxr-xr-x",
+      "Size": "7629471",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-03 14:14:58 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "intel-ucode.img",
+      "Permission": "-rwxr-xr-x",
+      "Size": "1668608",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-03-15 04:17:42 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "refind_linux.conf",
+      "Permission": "-rwxr-xr-x",
+      "Size": "243",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-12 23:10:04 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "vmlinuz-linux",
+      "Permission": "-rwxr-xr-x",
+      "Size": "5236592",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-04-30 21:15:12 +0800 CST",
+      "Access": true
+    }
+  ],
+  "path": "/boot",
+  "writable": false
+}

@@ -1,0 +1,77 @@
+{
+  "cpu_info": [
+    8.729356252106534,
+    10.595579551206574,
+    7.79878460499666,
+    9.14479254868782
+  ],
+  "disk_info": [
+    [
+      "/",
+      "11804180480",
+      "15786254336"
+    ],
+    [
+      "/home",
+      "12716691456",
+      "95640199168"
+    ],
+    [
+      "/boot",
+      "74871808",
+      "100663296"
+    ]
+  ],
+  "log_info": "[2018-05-06 13:32] [ALPM] running 'update-mime-database.hook'...\r\n[2018-05-06 13:32] [ALPM] running 'update-desktop-database.hook'...\r\n[2018-05-06 13:32] [ALPM] running 'systemd-update.hook'...\r\n[2018-05-06 13:32] [ALPM] running 'gtk-update-icon-cache.hook'...\r\n[2018-05-06 13:32] [ALPM] transaction completed\r\n[2018-05-06 13:32] [ALPM] upgraded python2 (2.7.14-3 -\u003e 2.7.15-1)\r\n[2018-05-06 13:32] [ALPM] upgraded kwallet-pam (5.12.5-2 -\u003e 5.12.5-3)\r\n[2018-05-06 13:32] [ALPM] upgraded js52 (52.7.3-1 -\u003e 52.7.3-2)\r\n[2018-05-06 13:32] [ALPM] upgraded cmake (3.10.3-1 -\u003e 3.11.1-1)\r\n[2018-05-06 13:32] [ALPM] transaction started\r\n[2018-05-06 13:32] [PACMAN] starting full system upgrade\r\n[2018-05-06 13:32] [PACMAN] synchronizing package lists\r\n[2018-05-06 13:32] [PACMAN] Running 'pacman -Syu'\r\n[2018-05-06 13:26] [PACMAN] starting full system upgrade\r\n[2018-05-06 13:26] [PACMAN] synchronizing package lists\r\n[2018-05-06 13:26] [PACMAN] Running 'pacman -Syu'\r\n[2018-05-06 13:26] [PACMAN] starting full system upgrade\r\n[2018-05-06 13:26] [PACMAN] synchronizing package lists\r\n[2018-05-06 13:26] [PACMAN] Running 'pacman -Syu'\r\n[2018-05-04 15:37] [ALPM] running 'update-mime-database.hook'...\r\n[2018-05-04 15:37] [ALPM] running 'update-desktop-database.hook'...\r\n[2018-05-04 15:37] [ALPM] running 'systemd-update.hook'...\r\n[2018-05-04 15:37] [ALPM] running 'gtk-update-icon-cache.hook'...\r\n[2018-05-04 15:37] [ALPM] transaction completed\r\n[2018-05-04 15:37] [ALPM] upgraded calibre (3.22.1-1 -\u003e 3.23.0-1)",
+  "mem_info": [
+    "3152322560",
+    "8267571200"
+  ],
+  "network_info": [
+    [
+      "12",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "8459642"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "67181137"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "75640779"
+    ]
+  ],
+  "swap_info": [
+    "0",
+    "8128102400"
+  ],
+  "sys_info": [
+    "Dell-XPS-13-9343",
+    "arch",
+    "4.16.6-1-ARCH",
+    "Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz",
+    "3000.0 Mhz",
+    "8267571200",
+    "2018-05-06 13:25:15 +0800 CST"
+  ]
+}

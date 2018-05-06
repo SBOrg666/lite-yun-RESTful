@@ -1,0 +1,63 @@
+{
+  "dirs": [
+    {
+      "Url": "/path?path=/home/zhang/Desktop/New Folder",
+      "DirName": "New Folder",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "zhang",
+      "Group": "zhang",
+      "Mtime": "2018-05-06 16:45:31.185591279 +0800 CST",
+      "Access": true
+    }
+  ],
+  "files": [
+    {
+      "FileName": ".directory",
+      "Permission": "-rw-r--r--",
+      "Size": "65",
+      "Owner": "zhang",
+      "Group": "zhang",
+      "Mtime": "2018-01-12 19:20:44.765814395 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "Home.desktop",
+      "Permission": "-rw-r--r--",
+      "Size": "2401",
+      "Owner": "zhang",
+      "Group": "zhang",
+      "Mtime": "2018-01-12 19:20:44.765814395 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "README.md",
+      "Permission": "-rw-r--r--",
+      "Size": "2",
+      "Owner": "zhang",
+      "Group": "zhang",
+      "Mtime": "2018-05-06 15:56:05.730774909 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "Text File",
+      "Permission": "-rw-r--r--",
+      "Size": "2",
+      "Owner": "zhang",
+      "Group": "zhang",
+      "Mtime": "2018-05-06 14:39:53.023221685 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "trash.desktop",
+      "Permission": "-rw-r--r--",
+      "Size": "2820",
+      "Owner": "zhang",
+      "Group": "zhang",
+      "Mtime": "2018-01-12 19:20:44.765814395 +0800 CST",
+      "Access": true
+    }
+  ],
+  "path": "/home/zhang/Desktop",
+  "writable": true
+}

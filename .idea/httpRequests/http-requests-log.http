@@ -1,0 +1,406 @@
+POST http://localhost:8000/systemInfo?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000&path=/home/zhang/Desktop
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T050025.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000&path=/home/zhang/Desktop
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T050016.200.txt
+
+###
+
+GET http://localhost:8000/systemInfo?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000&path=/home/zhang/Desktop
+Accept: */*
+Cache-Control: no-cache
+Cookie: session=MTUyNTU5MzkzNXxEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQWNBQld4dloybHVCbk4wY21sdVp3d0dBQVIwY25WbHzgW1eya3GwgM0VjSYQGv8GCJTKFZW6j4o9iJ4sKDrxmw==
+
+<> 2018-05-06T045957.404.txt
+
+###
+
+GET http://localhost:8000/path?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000&path=/home/zhang/Desktop
+Accept: */*
+Cache-Control: no-cache
+Cookie: session=MTUyNTU5MzkzNXxEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQWNBQld4dloybHVCbk4wY21sdVp3d0dBQVIwY25WbHzgW1eya3GwgM0VjSYQGv8GCJTKFZW6j4o9iJ4sKDrxmw==
+
+<> 2018-05-06T044601.200.json
+
+###
+
+GET http://localhost:8000/path?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+Cookie: session=MTUyNTU5MzkzNXxEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQWNBQld4dloybHVCbk4wY21sdVp3d0dBQVIwY25WbHzgW1eya3GwgM0VjSYQGv8GCJTKFZW6j4o9iJ4sKDrxmw==
+
+<> 2018-05-06T044412.200.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+Cookie: session=MTUyNTU5MzkzNXxEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQWNBQld4dloybHVCbk4wY21sdVp3d0dBQVIwY25WbHzgW1eya3GwgM0VjSYQGv8GCJTKFZW6j4o9iJ4sKDrxmw==
+
+<> 2018-05-06T043938.200.json
+
+###
+
+POST http://localhost:8000/systemInfo?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+Cookie: session=MTUyNTU5MzkzNXxEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQWNBQld4dloybHVCbk4wY21sdVp3d0dBQVIwY25WbHzgW1eya3GwgM0VjSYQGv8GCJTKFZW6j4o9iJ4sKDrxmw==
+
+<> 2018-05-06T042906.200.json
+
+###
+
+GET http://localhost:8000/path?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+Cookie: session=MTUyNTU5MzkzNXxEdi1CQkFFQ180SUFBUkFCRUFBQUlfLUNBQUVHYzNSeWFXNW5EQWNBQld4dloybHVCbk4wY21sdVp3d0dBQVIwY25WbHzgW1eya3GwgM0VjSYQGv8GCJTKFZW6j4o9iJ4sKDrxmw==
+
+<> 2018-05-06T042544.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T040535.200.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T040446.200.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T035323.500.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T035313.200.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&passwor=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T035223.200.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T035211.200.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T034053.500.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=1&operation=resumee&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T034044.400.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T034020.500.txt
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T034011.200.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa&pid=10753&operation=4&createTime=1525591822000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033907.200.json
+
+###
+
+POST http://localhost:8000/processInfo?username=zhang&password=aaa&pid=10753&operation=4&createTime=1525591822000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033901.404.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=10753&operation=4&createTime=1525591822000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033851.200.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=10753&operation=4&createTime=1525591822000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033844.401.json
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=10753&operation=4&createTime=1525591822000
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033341.200.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=10753&operation=1&createTime=666
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033251.400.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa&pid=6666&operation=1&createTime=666
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033222.400.txt
+
+###
+
+POST http://localhost:8000/manageProcess?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033120.400.txt
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033030.200.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033029.200.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033028.200.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033027.200.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T033014.200.json
+
+###
+
+POST http://localhost:8000/systemInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T032659.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T032652.200.txt
+
+###
+
+POST http://localhost:8000/systemInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T032305.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T032255.200.txt
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T032136.401.json
+
+###
+
+POST http://localhost:8000/getProcessInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031902.200.json
+
+###
+
+GET http://localhost:8000/path?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031836.200.json
+
+###
+
+POST http://localhost:8000/path?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031833.404.txt
+
+###
+
+POST http://localhost:8000/systemInfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031810.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031757.200.txt
+
+###
+
+POST http://localhost:8000/Systeminfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031648.401.json
+
+###
+
+POST http://localhost:8000/Systeminfo?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031340.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T031314.200.txt
+
+###
+
+GET http://localhost:8000/path?path=/boot
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T024254.200.json
+
+###
+
+GET http://localhost:8000/path
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T024201.200.json
+
+###
+
+GET http://localhost:8000/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T024120.404.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T023927.200.txt
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T023427.200.txt
+
+###
+
+POST http://localhost:8000/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-06T023342.200.txt
+
+###
+

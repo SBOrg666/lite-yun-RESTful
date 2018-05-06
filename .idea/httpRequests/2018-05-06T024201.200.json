@@ -1,0 +1,194 @@
+{
+  "dirs": [
+    {
+      "Url": "/path?path=/boot",
+      "DirName": "boot",
+      "Permission": "drwxr-xr-x",
+      "Size": "1024",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "1970-01-01 08:00:00 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/dev",
+      "DirName": "dev",
+      "Permission": "drwxr-xr-x",
+      "Size": "3480",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 13:25:18.493364057 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/etc",
+      "DirName": "etc",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 13:32:07.076666675 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/home",
+      "DirName": "home",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-12 19:01:42.182333491 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/lost+found",
+      "DirName": "lost+found",
+      "Permission": "drwx------",
+      "Size": "16384",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-12 18:38:38 +0800 CST",
+      "Access": false
+    },
+    {
+      "Url": "/path?path=/mnt",
+      "DirName": "mnt",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-15 10:27:17.098082187 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/opt",
+      "DirName": "opt",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-03-19 16:05:22.568544859 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/proc",
+      "DirName": "proc",
+      "Permission": "dr-xr-xr-x",
+      "Size": "0",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 13:25:15.03333333 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/root",
+      "DirName": "root",
+      "Permission": "drwxr-x---",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-04-22 14:13:47.303780258 +0800 CST",
+      "Access": false
+    },
+    {
+      "Url": "/path?path=/run",
+      "DirName": "run",
+      "Permission": "drwxr-xr-x",
+      "Size": "540",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 13:25:20.526697367 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/srv",
+      "DirName": "srv",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-12 18:43:46.880784715 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/sys",
+      "DirName": "sys",
+      "Permission": "dr-xr-xr-x",
+      "Size": "0",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 13:25:15.506666643 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/tmp",
+      "DirName": "tmp",
+      "Permission": "dtrwxrwxrwx",
+      "Size": "640",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 14:40:08.199758161 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/usr",
+      "DirName": "usr",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-06 13:32:07.249998918 +0800 CST",
+      "Access": true
+    },
+    {
+      "Url": "/path?path=/var",
+      "DirName": "var",
+      "Permission": "drwxr-xr-x",
+      "Size": "4096",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-05-04 15:44:38.296709055 +0800 CST",
+      "Access": true
+    }
+  ],
+  "files": [
+    {
+      "FileName": "bin",
+      "Permission": "Lrwxrwxrwx",
+      "Size": "7",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-06 03:17:15 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "lib",
+      "Permission": "Lrwxrwxrwx",
+      "Size": "7",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-06 03:17:15 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "lib64",
+      "Permission": "Lrwxrwxrwx",
+      "Size": "7",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-06 03:17:15 +0800 CST",
+      "Access": true
+    },
+    {
+      "FileName": "sbin",
+      "Permission": "Lrwxrwxrwx",
+      "Size": "7",
+      "Owner": "root",
+      "Group": "root",
+      "Mtime": "2018-01-06 03:17:15 +0800 CST",
+      "Access": true
+    }
+  ],
+  "path": "/",
+  "writable": false
+}
