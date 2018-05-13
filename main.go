@@ -3,13 +3,12 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/SBOrg666/lite-yun-RESTful/utils"
-	"github.com/gin-contrib/sessions"
-	"github.com/satori/go.uuid"
 	"github.com/jasonlvhit/gocron"
 	"time"
 	"flag"
 	"fmt"
 	"log"
+	"github.com/satori/go.uuid"
 )
 
 func main() {
@@ -37,9 +36,11 @@ func main() {
 	log.Println()
 
 	router := gin.Default()
-	store := sessions.NewCookieStore([]byte(uuid.Must(uuid.NewV4()).String()))
-	store.Options(sessions.Options{MaxAge: 0, HttpOnly: true})
-	router.Use(sessions.Sessions("session", store))
+	//store := sessions.NewCookieStore([]byte(uuid.Must(uuid.NewV4()).String()))
+	//store.Options(sessions.Options{MaxAge: 0, HttpOnly: true})
+	//router.Use(sessions.Sessions("session", store))
+	utils.CookieName=uuid.Must(uuid.NewV4()).String()
+	utils.CookieValue=uuid.Must(uuid.NewV4()).String()
 
 	router.POST("/login", utils.LoginHandler_post)
 

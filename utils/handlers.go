@@ -2,7 +2,6 @@ package utils
 
 import (
 	"fmt"
-	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 	_ "github.com/mattn/go-sqlite3"
@@ -56,10 +55,10 @@ func LoginHandler_post(c *gin.Context) {
 	if user.Name != Username || user.Password != Password {
 		c.String(http.StatusOK, "failed")
 	} else {
-		//c.SetCookie("login", "true", 0, "/", "", false, true)
-		session := sessions.Default(c)
-		session.Set("login", "true")
-		session.Save()
+		c.SetCookie(CookieName, CookieValue, 0, "/", "", false, true)
+		//session := sessions.Default(c)
+		//session.Set("login", "true")
+		//session.Save()
 		c.String(http.StatusOK, "ok")
 	}
 }

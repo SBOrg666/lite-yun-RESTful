@@ -4,15 +4,15 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
-	"github.com/gin-contrib/sessions"
 )
 
 func CheckLoginIn() gin.HandlerFunc {
 	return func(context *gin.Context) {
-		session := sessions.Default(context)
-		login := session.Get("login")
-		if login != "true" {
-			session.Clear()
+		//session := sessions.Default(context)
+		//login := session.Get("login")
+		val,_:=context.Cookie(CookieName)
+		if val != CookieValue {
+			//session.Clear()
 			if strings.ToUpper(context.Request.Method) == "GET" {
 				context.Abort()
 				context.Redirect(http.StatusTemporaryRedirect, "/login")

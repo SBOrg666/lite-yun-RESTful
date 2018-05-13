@@ -13,7 +13,7 @@
     username=XXX  
     password=XXX  
     **返回结果：**  
-    成功返回“ok”，并且response的header中有set-cookie字段，里面有个session字段，后面每一次请求都需要带有这个cookie  
+    成功返回“ok”，并且response的header中有set-cookie字段，后面每一次请求都需要带有这个cookie  
     失败返回“failed”
 
 - /systemInfo POST  

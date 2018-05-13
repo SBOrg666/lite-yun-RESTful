@@ -2,6 +2,22 @@ POST http://localhost:8000/systemInfo?username=zhang&password=aaa&pid=1&operatio
 Accept: */*
 Cache-Control: no-cache
 
+<> 2018-05-13T060330.200.json
+
+###
+
+POST http://localhost:8000/login?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000&path=/home/zhang/Desktop
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-13T060313.200.txt
+
+###
+
+POST http://localhost:8000/systemInfo?username=zhang&password=aaa&pid=1&operation=resume&createTime=1525584315000&path=/home/zhang/Desktop
+Accept: */*
+Cache-Control: no-cache
+
 <> 2018-05-06T050025.200.json
 
 ###
@@ -385,22 +401,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-05-06T023927.200.txt
-
-###
-
-POST http://localhost:8000/login?username=zhang&password=aaa
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-06T023427.200.txt
-
-###
-
-POST http://localhost:8000/login
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-06T023342.200.txt
 
 ###
 
