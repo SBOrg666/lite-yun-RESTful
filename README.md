@@ -8,15 +8,15 @@
 
 ---
 ## API接口说明
-- /login POST  
+- /login POST 用来获取token  
     **请求参数：**  
     username=XXX  
     password=XXX  
     **返回结果：**  
-    成功返回“ok”，并且response的header中有set-cookie字段，后面每一次请求都需要带有这个cookie  
+    成功返回一个token，后面每一次请求都需要在url参数中带有这个token（例如：/getProcessInfo?token=XXXXXXXXXX）  
     失败返回“failed”
 
-- /systemInfo POST  
+- /systemInfo POST 用来获取系统基本信息（CPU、内存、网络流量、磁盘、日志、系统基本信息）  
     **请求参数：**  
     无  
     **返回结果：**  
@@ -31,7 +31,7 @@
 - /systemInfo websocket  
     同上
 
-- /getProcessInfo POST  
+- /getProcessInfo POST 用来获取系统的进程信息，具体格式见返回结果  
     **请求参数：**  
     无  
     **返回结果：**  
@@ -44,7 +44,7 @@
 - /processInfo websocket  
     同上
 
-- /manageProcess POST  
+- /manageProcess POST 用来管理系统的进程  
     **请求参数：**  
     pid=pid  
     operation=resume|suspend|kill|terminate  
@@ -52,7 +52,7 @@
     **返回结果：**  
     成功返回“pid succeed”，失败返回错误原因
 
-- path GET  
+- path GET 用来获取指定目录下的文件以及文件夹  
     **请求参数：**  
     path=path  
     **返回结果：**  
@@ -63,29 +63,35 @@
     "writable":true}
     ```
 
-- /download POST  
+- /download POST 用来将指定文件及文件夹打包成zip，根据返回的zip名再调用GET方法进行下载  
     **请求参数：**  
     files=[XXX,XXX,XXX]  
     **返回结果：**  
     成功返回“ok zip文件路径”，失败返回错误原因
 
-- /download GET  
+- /download GET 下载指定的zip文件  
     **请求参数：**  
     name=zip文件路径  
     **返回结果：**  
     成功返回文件，失败返回错误原因
 
-- /upload POST  
+- /upload POST 用来上传单个文件  
     **请求参数：**  
     query参数：  
     path=path（上传路径）  
     post参数：  
-    file=file  
+    files=file  
     **返回参数：**  
     成功返回{"name":filename}，失败返回错误原因
 
-- /delete DELETE  
+- /delete POST 用来删除文件或文件夹  
     **请求参数：**  
     files=[XXX,XXX,XXX]  
     **返回结果：**  
     成功返回“ok”，失败返回错误原因
+    
+- /ping POST 用来判断服务器是否online，不需要token验证  
+    **请求参数：**  
+    无  
+    **返回结果：**  
+    “ok”

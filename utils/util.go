@@ -331,7 +331,7 @@ func GetDirs(path string, allfiles []os.FileInfo) []DirItem {
 			dir.DirName = file.Name()
 			dir.Size = fmt.Sprint(file.Size())
 			dir.Mtime = fmt.Sprint(file.ModTime())
-			dir.Url = "/path?path=" + filepath.Join(path, file.Name())
+			dir.Url = "/path?token="+Token+"&path=" + filepath.Join(path, file.Name())
 			dir.Access = unix.Access(filepath.Join(path, file.Name()), unix.R_OK) == nil && unix.Access(filepath.Join(path, file.Name()), unix.X_OK) == nil
 			dir.Permission = fmt.Sprint(file.Mode())
 			u, err := user.LookupId(fmt.Sprint(file.Sys().(*syscall.Stat_t).Uid))

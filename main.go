@@ -8,6 +8,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"github.com/gin-contrib/cors"
 	"github.com/satori/go.uuid"
 )
 
@@ -36,11 +37,10 @@ func main() {
 	log.Println()
 
 	router := gin.Default()
-	//store := sessions.NewCookieStore([]byte(uuid.Must(uuid.NewV4()).String()))
-	//store.Options(sessions.Options{MaxAge: 0, HttpOnly: true})
-	//router.Use(sessions.Sessions("session", store))
-	utils.CookieName=uuid.Must(uuid.NewV4()).String()
-	utils.CookieValue=uuid.Must(uuid.NewV4()).String()
+	router.Use(cors.Default())
+
+	utils.Token=uuid.Must(uuid.NewV4()).String()
+	log.Println("Token:"+utils.Token)
 
 	router.POST("/login", utils.LoginHandler_post)
 
@@ -65,7 +65,9 @@ func main() {
 
 	router.POST("/upload", utils.CheckLoginIn(), utils.UploadHandler_post)
 
-	router.DELETE("/delete", utils.CheckLoginIn(), utils.DeleteHandler_post)
+	router.POST("/delete", utils.CheckLoginIn(), utils.DeleteHandler_post)
+
+	router.POST("/ping",utils.PingHandler_post)
 
 	utils.Upload_data = make([]uint64, 5)
 	utils.Download_data = make([]uint64, 5)

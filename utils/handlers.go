@@ -53,13 +53,13 @@ func LoginHandler_post(c *gin.Context) {
 	err := c.ShouldBind(&user)
 	checkErr(err)
 	if user.Name != Username || user.Password != Password {
-		c.String(http.StatusOK, "failed")
+		c.String(http.StatusUnauthorized, "failed")
 	} else {
-		c.SetCookie(CookieName, CookieValue, 0, "/", "", false, true)
+		//c.SetCookie(CookieName, CookieValue, 0, "/", "", false, true)
 		//session := sessions.Default(c)
 		//session.Set("login", "true")
 		//session.Save()
-		c.String(http.StatusOK, "ok")
+		c.String(http.StatusOK, Token)
 	}
 }
 
@@ -74,7 +74,9 @@ func SystemInfoHandler_post(c *gin.Context) {
 	})
 }
 
-var wsupgrader = websocket.Upgrader{ReadBufferSize: 1024, WriteBufferSize: 1024}
+var wsupgrader = websocket.Upgrader{ReadBufferSize: 1024, WriteBufferSize: 1024,CheckOrigin: func(r *http.Request) bool {
+	return true
+},}
 
 func SystemInfoHandler_ws(w http.ResponseWriter, r *http.Request) {
 	conn, err := wsupgrader.Upgrade(w, r, nil)
@@ -182,7 +184,9 @@ func ManageProcessInfoHandler_post(c *gin.Context) {
 	}
 }
 
-var wsupgrader2 = websocket.Upgrader{ReadBufferSize: 1024, WriteBufferSize: 1024}
+var wsupgrader2 = websocket.Upgrader{ReadBufferSize: 1024, WriteBufferSize: 1024,CheckOrigin: func(r *http.Request) bool {
+	return true
+},}
 
 func ProcessInfoHandler_ws(w http.ResponseWriter, r *http.Request) {
 	conn, err := wsupgrader2.Upgrade(w, r, nil)
@@ -391,18 +395,18 @@ func DownloadHandler_post(c *gin.Context) {
 }
 
 func UploadHandler_post(c *gin.Context) {
-	path := c.DefaultQuery("path", "")
+	path:=c.DefaultPostForm("path","")
 	if len(path) == 0 {
 		c.String(http.StatusBadRequest, "invalid path")
 	} else {
-		file, header, err := c.Request.FormFile("file")
-		checkErr(err)
+		file, header, err := c.Request.FormFile("files")
+		logErr(err)
 		filename := header.Filename
 		out, err := os.Create(filepath.Join(path, filename))
-		checkErr(err)
+		logErr(err)
 		defer out.Close()
 		_, err = io.Copy(out, file)
-		checkErr(err)
+		logErr(err)
 		c.JSON(http.StatusOK, gin.H{"name": filename})
 	}
 }
@@ -438,4 +442,8 @@ func DeleteHandler_post(c *gin.Context) {
 		logErr(err)
 		c.String(http.StatusBadRequest, fmt.Sprint(err))
 	}
+}
+
+func PingHandler_post(c *gin.Context)  {
+	c.String(http.StatusOK,"ok")
 }

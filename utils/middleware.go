@@ -8,14 +8,12 @@ import (
 
 func CheckLoginIn() gin.HandlerFunc {
 	return func(context *gin.Context) {
-		//session := sessions.Default(context)
-		//login := session.Get("login")
-		val,_:=context.Cookie(CookieName)
-		if val != CookieValue {
-			//session.Clear()
+
+		token:=context.DefaultQuery("token","invalid")
+
+		if token != Token {
 			if strings.ToUpper(context.Request.Method) == "GET" {
-				context.Abort()
-				context.Redirect(http.StatusTemporaryRedirect, "/login")
+				context.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"error": "unauthorized"})
 			} else if strings.ToUpper(context.Request.Method) == "POST" {
 				context.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{"error": "unauthorized"})
 			} else {
