@@ -1,4 +1,4 @@
-# Lite Yun 使用说明
+# Lite Yun RESTful接口说明
 
 ## server端启动参数
 - -u：登录用户名（必需）
